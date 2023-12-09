@@ -502,6 +502,6 @@ Quan veiem els servidors d'aplicacions, veurem com gràcies a `Docker Composer` 
 ## Exemples
 
 - [Exemple 1: Volum muntat](./1.VolumMuntat/)
-- [Exemple 2: Volums](./2.Volums/)     
+- [Exemple 2: Volums](./2.Volums/)
 - [Exemple 3: SQL Server](./3.SQLServer/)
 - [Exemple 4: MySQL](./4.MySQL/)
