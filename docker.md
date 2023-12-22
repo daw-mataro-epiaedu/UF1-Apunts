@@ -416,6 +416,8 @@ Un aspecte molt important a tenir en compte és que a source o src per abreujar,
 docker run -d -p 8080:80 --mount type=bind,target=/usr/share/nginx/html,source=${PWD} nginx
 ```
 
+Una cosa a tenir en compte, és que si usem l'opció `mount` la destinació ha d'existir, sinó al crear el contenidor, ens donarà un error. En canvi, si utilitzem l'opció `volume`, la destinació es crearà automàticament.
+
 ## Docker Compose
 
 Docker Compose és una eina que permet gestionar contenidors de forma declarativa. Això vol dir, que en comptes de crear contenidors amb comandes, els creem amb fitxers de configuració. Això ens permet tenir un control més gran sobre els contenidors i també ens permet gestionar-los de forma més senzilla. A més, ens permetrà crear entorns amb més d'un contenidor, per exemple, un contenidor amb el servidor web i un altre amb la base de dades.
