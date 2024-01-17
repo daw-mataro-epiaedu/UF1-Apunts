@@ -7,6 +7,7 @@ Un cop hem desenvolupat la nostra pàgina web en local, hem de transferir-la al 
 - [Protocol FTP](#ftp-file-transfer-protocol--rfc-959)
 - [Protocol FTPes](#ftpes-ftp-over-explicit-tlsssl--rfc-4217)
 - [Protocol SFTP](#sftp-ssh-file-transfer-protocol--rfc-4253)
+- [Ús de panells de gestió](#ús-de-panells-de-gestió)
 - [Desplegament continu (CD)](#desplegament-continu-cd)
 - [Tornar a l'índex](/README.md)
 
@@ -31,6 +32,16 @@ El protocol FTP original presenta l'inconvenient que tot el trànsit es trasmet 
 És un protocol que utilitza SSH (Secure Shell) per a transferir fitxers de forma segura. Aquest protocol utilitza el port 22 per a la comunicació de comandes i de dades. En aquest cas es necesssita que el servidor tingui instal·lat un certificat digital. És un dels protocols més utilitzats actualment, entre altres coses perquè la major part dels servidors web tenen instal·lat un servidor SSH.
 
 Tots aquests sistemes es basen en el desplegament manual de la pàgina web, però actualment, s'han desenvolupat sistemes que permeten automatitzar aquest procés, de manera que cada vegada que es realitza un commit al repositori, es desplega la pàgina web en el servidor remot.
+
+## Ús de panells de gestió
+
+Els panells de gestió són eines que permeten gestionar de forma gràfica un servidor remot. Aquests panells de gestió permeten instal·lar i configurar els serveis que necessitem per a la nostra pàgina web, com ara el servidor web, el servidor de bases de dades, el servidor de correu, etc.
+
+Existeixen diversos panells de gestió, com ara cPanel, Plesk, ISPConfig, etc. Un dels populars és cPanel, que és un panell de gestió comercial, però que molts proveïdors de serveis d'hosting ofereixen gratuïtament als seus clients.
+
+![cPanel](images/cpanel.png)
+
+Habitualment, es comprimeixen els arxius a pujar i un cop al servidor, es procedeix a la descompressió.
 
 ## Desplegament continu (CD)
 
