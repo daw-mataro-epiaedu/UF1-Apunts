@@ -281,7 +281,7 @@ Si decidim accedir a fitxers php que tinguem al directori `/var/www/html` , el s
 Instal·larem el llenguatge php i el mòdul de php per apache i habilitarem el mòdul per poder treballar amb PHP.
 
 ```bash
-apt install -y php libapache2-mod-php4
+apt install -y php libapache2-mod-php
 ```
 
 Si reiniciem l'apache systemctl restart apache2.service i accedim a a  `http:\\IP_delservidor\info.php` ja funcionarà ja que la instal·lació ens ha habilitat el mòdul php de l'apache.
