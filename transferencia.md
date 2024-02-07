@@ -39,7 +39,7 @@ Els panells de gestió són eines que permeten gestionar de forma gràfica un se
 
 Existeixen diversos panells de gestió, com ara cPanel, Plesk, ISPConfig, etc. Un dels populars és cPanel, que és un panell de gestió comercial, però que molts proveïdors de serveis d'hosting ofereixen gratuïtament als seus clients.
 
-![cPanel](images/trasnferencia/cpanel.jpg)
+![cPanel](images/transferencia/cpanel.jpg)
 
 Habitualment, es comprimeixen els arxius a pujar i un cop al servidor, es procedeix a la descompressió.
 
