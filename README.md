@@ -2,7 +2,7 @@
 
 ![logo](./images/uf1-logo.png)
 
-Carlos Alonso Martínez 2023
+Carlos Alonso Martínez 2024
 
 ## Taula de continguts
 
